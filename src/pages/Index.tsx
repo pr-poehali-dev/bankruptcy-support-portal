@@ -55,10 +55,13 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Профессиональное сопровождение процедуры банкротства
+              Жизнь без долгов – это реально!
             </h1>
             <p className="text-xl mb-8 opacity-90">
-              Юридическая защита ваших интересов на всех этапах. Опыт более 10 лет, 500+ успешных дел
+              Вы испытываете финансовые трудности из-за долгов? Угрожают коллекторы и кредиторы? Боитесь потерять имущество?
+            </p>
+            <p className="text-2xl mb-8 font-semibold text-accent">
+              Мы предлагаем решение: профессиональную помощь в процедуре банкротства!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -87,28 +90,57 @@ const Index = () => {
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-6">
                 <div className="flex justify-center mb-4">
-                  <Icon name="Award" size={48} className="text-accent" />
+                  <Icon name="FileCheck" size={48} className="text-accent" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Опыт 10+ лет</h3>
-                <p className="text-muted-foreground">Успешное сопровождение более 500 процедур банкротства</p>
+                <h3 className="text-xl font-semibold mb-2">Полное сопровождение</h3>
+                <p className="text-muted-foreground">Мы берем на себя все хлопоты, от сбора документов до защиты вашего имущества</p>
               </CardContent>
             </Card>
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardContent className="pt-8 pb-6">
+                <div className="flex justify-center mb-4">
+                  <Icon name="BadgeRussianRuble" size={48} className="text-accent" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Фиксированная цена</h3>
+                <p className="text-muted-foreground">Вы заранее знаете полную стоимость наших услуг и можете оформить удобную рассрочку</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardContent className="pt-8 pb-6">
+                <div className="flex justify-center mb-4">
+                  <Icon name="PhoneOff" size={48} className="text-accent" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Без коллекторов</h3>
+                <p className="text-muted-foreground">Мы возьмем на себя общение с кредиторами и защитим вас от неправомерных действий</p>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 mt-8">
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-6">
                 <div className="flex justify-center mb-4">
                   <Icon name="Shield" size={48} className="text-accent" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Полная защита</h3>
-                <p className="text-muted-foreground">Защита от кредиторов и незаконных требований</p>
+                <h3 className="text-xl font-semibold mb-2">Гарантия возврата</h3>
+                <p className="text-muted-foreground">Возврат денег при определенных условиях, прописанных в договоре</p>
               </CardContent>
             </Card>
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-6">
                 <div className="flex justify-center mb-4">
-                  <Icon name="FileCheck" size={48} className="text-accent" />
+                  <Icon name="Lock" size={48} className="text-accent" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Все документы</h3>
-                <p className="text-muted-foreground">Полная подготовка и сопровождение документооборота</p>
+                <h3 className="text-xl font-semibold mb-2">Конфиденциальность</h3>
+                <p className="text-muted-foreground">Защита ваших данных и полная конфиденциальность на всех этапах</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center hover:shadow-lg transition-shadow">
+              <CardContent className="pt-8 pb-6">
+                <div className="flex justify-center mb-4">
+                  <Icon name="HeartHandshake" size={48} className="text-accent" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Поддержка 24/7</h3>
+                <p className="text-muted-foreground">Индивидуальный подход и поддержка на каждом шагу процедуры</p>
               </CardContent>
             </Card>
           </div>
@@ -293,9 +325,17 @@ const Index = () => {
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-10">
               <h2 className="text-4xl font-bold mb-4">Бесплатная консультация</h2>
+              <p className="text-lg opacity-90 mb-4">
+                Устали от долгов и постоянного стресса? Не откладывайте решение на потом!
+              </p>
               <p className="text-lg opacity-90">
                 Оставьте заявку, и наш специалист свяжется с вами в течение 30 минут
               </p>
+              <div className="mt-6 p-4 bg-primary-foreground/10 rounded-lg">
+                <p className="text-sm font-semibold text-accent">
+                  ⚠️ Важно помнить: Банкротство – это серьезный шаг с долгосрочными последствиями. Прежде чем принять решение, проконсультируйтесь со специалистом.
+                </p>
+              </div>
             </div>
             <Card>
               <CardContent className="pt-6">
